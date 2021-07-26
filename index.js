@@ -60,6 +60,3 @@ function App() {
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
-
-// stopped at 9:18
-//  https://youtu.be/3SqLY-4Bqv8?t=558
