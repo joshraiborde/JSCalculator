@@ -1,11 +1,11 @@
-.container {
+.container{
     padding-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.grid {
+.grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -33,7 +33,7 @@
 
 .padButton:hover{
     border: 1px solid white;
-    color: #ccc;
+    color: yellow;
 }
 
 .dis{
@@ -56,7 +56,7 @@
 }
 
 .zero{
-    grid-row: zero;
+    grid-area: zero;
 }
 
 .equal{
@@ -81,4 +81,8 @@
 input::placeholder{
     color: white;
     font-size: 20px;
+}
+
+#zero{
+    background-color: ;
 }
