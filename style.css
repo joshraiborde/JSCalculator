@@ -57,3 +57,17 @@
 .equal{
     grid-area: equal;
 }
+
+.total{
+    padding: 5px 20px;
+    color: black;
+    text-shadow: 3px blanchedalmond;
+}
+
+.dis input{
+    width: 100%;
+    color: white;
+    padding: 5px 20px;
+    text-align: right;
+    background-color: black;
+}
