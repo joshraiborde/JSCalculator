@@ -10,8 +10,14 @@ function App() {
         setAnswer(eval(expression))
     }
 
-    const allClear = () => {};
-    const clear = () => {};
+    const allClear = () => {
+        setExpression("");
+        setAnswer(0)
+    };
+    const clear = () => {
+        setExpression(prev => prev.split("").slice(0, prev.length-1).join(""))
+        setAnswer(0)
+    };
 
 
     return (
